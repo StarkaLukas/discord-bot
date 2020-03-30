@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StarkaLukas/discord-bot"
+  },
+  "author": "Lukas Starka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StarkaLukas/discord-bot/issues"
+  },
+  "homepage": "https://github.com/StarkaLukas/discord-bot#readme",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^12.0.2",
+    "winston": "^3.2.1"
+  }
+}
