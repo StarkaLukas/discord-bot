@@ -29,11 +29,10 @@ function getGuy(msg){
 function getInsult(){
     let insultNumber = Math.floor(Math.random() * amountInsults);
     const insults = require(insultFilename).insults;
-    console.log("insults: " + JSON.stringify(insults));
     return insults[insultNumber];
 }
 
 function getAmounts(filename){
     console.log('Amount of insults: ' + require(filename).insults.length);
-
+    return require(filename).insults.length;
 }
