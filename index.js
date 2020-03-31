@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = require('./auth').token;
 const insultFilename = './data/insults';
-const amountInsults = 5;
+const amountInsults = getAmounts(insultFilename);
 
 client.on('ready', () => {
     console.log('Bot started...');
@@ -31,4 +31,9 @@ function getInsult(){
     const insults = require(insultFilename).insults;
     console.log("insults: " + JSON.stringify(insults));
     return insults[insultNumber];
+}
+
+function getAmounts(filename){
+    console.log('Amount of insults: ' + require(filename).insults.length);
+
 }
