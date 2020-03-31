@@ -9,7 +9,7 @@ So far the bot can
 
 #### Here's a list of every available command
 
-- ``[$insult @<USER>]`` Randomly picks an insult from a list of insults and sends it to the mentioned user in the text channel
+- ``$insult @<USER>`` Randomly picks an insult from a list of insults and sends it to the mentioned user in the text channel
 
 ## Invite it
 
