@@ -226,5 +226,6 @@ $RECYCLE.BIN/
 *.lnk
 
 .idea
+auth.json
 
 # End of https://www.gitignore.io/api/linux,macos,windows,webstorm,jetbrains,visualstudiocode
