@@ -18,12 +18,12 @@ client.on('message', (msg) => {
             msg.channel.send("I know you're really angry but please mention who you want to insult!");
         }
     }
-    else if(msg.content.includes('420')){
-        msg.channel.send('Blaze it')
+    /*if(msg.content.includes('420')){
+        msg.channel.send('Blaze it');
     }
-    else if(msg.content.includes('69')){
+    if(msg.content.includes('69')){
         msg.channel.send('nice.');
-    }
+    }*/
 });
 
 client.login(token);
